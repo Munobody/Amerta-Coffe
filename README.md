@@ -1,8 +1,8 @@
 <img src="https://github.com/Signor1/jadoo-travels/blob/25638627b142935345059e6bfcc32bc829629c20/Jadoo-Travel-Agency.png"/>
 
-# Jadoo Travel Agency Landing Page
+# Amerta Coffe Landing Page
 
-This project is a landing page for Jadoo Travel Agency built using React, TypeScript, and Vite.
+This project is a landing page for Amerta Coffe built using React, TypeScript, and Vite.
 
 ## Features
 
@@ -42,7 +42,7 @@ This project is a landing page for Jadoo Travel Agency built using React, TypeSc
 2. Navigate to the project directory:
 
    ```bash
-   cd jadoo-travel-agency
+   cd Amerta-Coffe
    ```
 
 3. Install the dependencies:

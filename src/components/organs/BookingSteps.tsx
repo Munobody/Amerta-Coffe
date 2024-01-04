@@ -4,8 +4,8 @@ import { Text } from '../atoms/Text'
 import { BookingStepsTexts } from '../particles/DataLists'
 import { AirplaneInFlight, AirplaneTilt, Buildings, MapTrifold, Receipt, Wallet } from '@phosphor-icons/react'
 import { Card } from '../molecules/Card'
-import CardImage1 from "../../assets/bookingImage1.jpeg"
-import CardImage2 from "../../assets/bookingImage2.jpeg"
+import CardImage1 from "../../assets/Kopi12.jpeg"
+import CardImage2 from "../../assets/Kopi12.jpeg"
 
 const BookingSteps = () => {
 

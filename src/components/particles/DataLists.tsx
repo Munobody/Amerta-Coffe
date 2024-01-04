@@ -32,8 +32,8 @@ export const NavButtons = [
 
 
 export const HeroTexts = {
-    firstText: "BEST DESITNATIONS AROUND THE WORLD",
-    secondText: "Travel, enjoy and live a new and full life.",
+    firstText: "BEST COFFEE AROUND THE WORLD",
+    secondText: "Coffee, enjoy and live a new and full life.",
     thirdText: "Built Wicket longer admire do barton vantity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
     firstButton: "Find out more",
     secondButton: 'Play Demo'
@@ -45,19 +45,19 @@ export const ServiceTexts = {
     secondText: "We Offer Best Services",
     cards: [
         {
-            firstText: "Calculated Weather",
+            firstText: "AmertaCoffe",
             secondText: "Built Wicket longer admire do barton vantity itself do in it."
         },
         {
-            firstText: "Best Flight",
+            firstText: "AmertaCoffe",
             secondText: "engrossed listening. Park gate sell they west hard for the."
         },
         {
-            firstText: "Local Events",
+            firstText: "AmertaCoffe",
             secondText: "barton vantity itself do in it.Preferred to men it engrossed listening."
         },
         {
-            firstText: "Customizition",
+            firstText: "AmertaCoffe",
             secondText: "We deliver outsourced aviation services for military customers."
         }
     ]
@@ -65,44 +65,38 @@ export const ServiceTexts = {
 
 export const TopDestinationTexts = {
     firstText: "Top selling",
-    secondText: "Top Destinations",
+    secondText: "Top Coffee",
     cards: [
         {
-            country: "Rome, Italy",
+            country: "Amerta",
             price: "5.42k",
-            duration: "10 days trip"
         },
         {
             country: "London, UK",
             price: "4.2k",
-            duration: "12 days trip"
         },
         {
             country: "Paris, France",
             price: "15k",
-            duration: "26 days trip"
         },
         {
             country: "New York, USA",
             price: "4.5k",
-            duration: "8 days trip"
         },
         {
             country: "Warsaw, Poland",
             price: "3.9k",
-            duration: "14 days trip"
         },
         {
-            country: "Dubai, UAE",
-            price: "9.2k",
-            duration: "17 days trip"
+            country: "AmertaCoffee",
+            price: "100k",
         },
     ]
 }
 
 export const BookingStepsTexts = {
     firstText: "Easy and Fast",
-    secondText: "Book your next trip in 3 easy steps",
+    secondText: "Book your Coffee in 3 easy steps",
     listOfSteps: [
         {
             text: "Choose Destination lorem ipsum dolor sit amet, consectetur adipiscing elit.Urna, tortor tempus."
@@ -116,13 +110,13 @@ export const BookingStepsTexts = {
     ],
     cardOne:
     {
-        name: "Trip To Greece",
+        name: "AmertaCoffe",
         date: "14-29 June  |  by Robbin Jobs",
         people: "24 people going"
     },
     cardTwo: {
         status: "Ongoing",
-        destination: "Trip to Rome",
+        destination: "AmertaCoffe",
         completion: "40% Completed"
     }
 
@@ -156,7 +150,7 @@ export const TestimonialTexts = {
 }
 
 export const NewsletterTexts = {
-    firstText: "Subscribe to get information, latest news and other interesting offers about Jadoo.",
+    firstText: "Subscribe to get information, latest news and other interesting offers about AmertaCoffe.",
     placeholderText: "Your email",
     buttonText: "Subscribe"
 }

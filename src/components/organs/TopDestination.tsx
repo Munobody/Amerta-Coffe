@@ -3,14 +3,14 @@ import { Text } from "../atoms/Text"
 import { TopDestinationTexts } from "../particles/DataLists"
 import Slider from "react-slick";
 import { Card } from "../molecules/Card";
-import City1 from "../../assets/gallery1.jpeg"
-import City2 from "../../assets/gallery2.jpeg"
-import City3 from "../../assets/gallery3.jpeg"
-import City4 from "../../assets/gallery4.jpeg"
-import City5 from "../../assets/gallery5.jpeg"
-import City6 from "../../assets/gallery6.jpeg"
+import City1 from "../../assets/Kopi12.jpeg"
+import City2 from "../../assets/kopi13.jpeg"
+import City3 from "../../assets/kopi14.jpeg"
+import City4 from "../../assets/Kopi12.jpeg"
+import City5 from "../../assets/kopi13.jpeg"
+import City6 from "../../assets/kopi14.jpeg"
 import { Button } from "../atoms/Button";
-import { AirplaneTilt, CaretLeft, CaretRight } from "@phosphor-icons/react";
+import {CaretLeft, CaretRight } from "@phosphor-icons/react";
 
 
 const TopDestination = () => {
@@ -121,12 +121,6 @@ const TopDestination = () => {
                                         </Text>
                                         <Text as="small" className=" text-color3 font-light text-sm">
                                             {card.price}
-                                        </Text>
-                                    </div>
-                                    <div className="w-full flex gap-4 items-center text-color3">
-                                        <AirplaneTilt size={20} color="currentColor" weight="fill" />
-                                        <Text as="p" className=" text-color3 font-light text-base">
-                                            {card.duration}
                                         </Text>
                                     </div>
                                 </Card>

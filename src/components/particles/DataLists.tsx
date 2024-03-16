@@ -68,24 +68,24 @@ export const TopDestinationTexts = {
     secondText: "Top Coffee",
     cards: [
         {
-            country: "Amerta",
-            price: "5.42k",
+            country: "AmertaCoffe",
+            price: "100k",
         },
         {
-            country: "London, UK",
-            price: "4.2k",
+            country: "AmertaCoffe",
+            price: "100k",
         },
         {
-            country: "Paris, France",
-            price: "15k",
+            country: "AmertaCoffee",
+            price: "100k",
         },
         {
-            country: "New York, USA",
-            price: "4.5k",
+            country: "AmertaCoffee",
+            price: "100k",
         },
         {
-            country: "Warsaw, Poland",
-            price: "3.9k",
+            country: "AmertaCoffee",
+            price: "100k",
         },
         {
             country: "AmertaCoffee",
@@ -111,8 +111,8 @@ export const BookingStepsTexts = {
     cardOne:
     {
         name: "AmertaCoffe",
-        date: "14-29 June  |  by Robbin Jobs",
-        people: "24 people going"
+        date: "14-29 June  |  by Muatta Muhariq",
+        people: "24 people order"
     },
     cardTwo: {
         status: "Ongoing",
@@ -156,7 +156,7 @@ export const NewsletterTexts = {
 }
 
 export const FooterTexts = {
-    underLogoText: "Book your trip in minutes, get full control for much longer.",
+    underLogoText: "Book your Coffe in minutes, get full control for much longer.",
     quickLinks: {
         caption: "Quick Links",
         links: [

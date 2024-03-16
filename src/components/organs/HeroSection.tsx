@@ -6,10 +6,9 @@ import { HeroTexts } from "../particles/DataLists"
 import { Button } from "../atoms/Button"
 import { Fade, Slide } from "react-awesome-reveal"
 
-
 const HeroSection = () => {
     return (
-        <section className="w-full lg:h-screen md:h-[550px] h-[830px] relative overflow-x-hidden flex justify-end">
+        <section className="w-full lg:h-screen md:h-[550px] h-[830px] relative overflow-x-hidden flex justify-end min-h-screen">
             <Image className="h-[60%] w-[80%] lg:h-[90vh] md:h-[50vh] lg:w-1/2 md:w-[55%]" image={bgImage} alt="Hero Background Vector" />
             <main className="w-full lg:h-full h-auto grid md:grid-cols-2 absolute top-0 left-0 lg:px-24 md:px-8 px-5 pt-24 md:pt-32 lg:pt-0">
                 <div className="flex flex-col justify-center md:gap-6 gap-3 md:order-1 order-2">
@@ -28,16 +27,16 @@ const HeroSection = () => {
                         </Button>
                     </div>
                 </div>
-                    <div className="flex flex-col items-center justify-end md:order-2 order-1">
-                        <Slide direction="right">
-                            <Image
-                                image={heroImage}
-                                alt="Hero Image"
-                                className="lg:h-[100%] lg:w-[90%] md:h-[100%] md:w-full w-[90%] h-[50vh]"
-                                style={{ width: '150%', height: 'auto', maxWidth: '150%', maxHeight: '100%', margin: 'auto' }}
-                            />
-                        </Slide>
-                    </div>
+                <div className="flex flex-col items-center justify-end md:order-2 order-1" style={{ marginBottom: '150px', marginRight:'70px' }}>
+                    <Slide direction="right">
+                        <Image
+                            image={heroImage}
+                            alt="Hero Image"
+                            className="lg:h-[100%] lg:w-[90%] md:h-[100%] md:w-full w-[90%] h-[50vh]"
+                            style={{ width: '150%', height: 'auto', maxWidth: '150%', maxHeight: '100%', margin: 'auto', objectFit: 'cover' }}
+                        />
+                    </Slide>
+                </div>
             </main>
         </section>
     )
